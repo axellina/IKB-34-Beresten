@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.StatisticsSaverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-15T17:47:54" hostname="DESKTOP-J5I3DRQ" time="0.005">
-  <properties/>
-  <testcase name="testSaveStatistics()" classname="org.example.StatisticsSaverTest" time="0.005"/>
-  <system-out><![CDATA[[2024-12-15 20:47:54] [Test worker] INFO  org.example.StatisticsSaver - РЎРѕС…СЂР°РЅРµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёРєРё РІ С„Р°Р№Р»: test_output.txt
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
