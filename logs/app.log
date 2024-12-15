@@ -1,0 +1,320 @@
+[2024-12-15 01:31:21] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 01:31:31] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734215486.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734215487811122069, SCookieGUID=9EEEEF53%2DBA83%2D47C3%2DBB79%2DB9C96C8A5E70, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734215486, _ym_d=1734215487, __utmc=216042306, SUserID=593429390, __utma=216042306.2068571368.1734215486.1734215486.1734215486.1}
+[2024-12-15 01:31:31] [main] INFO  org.example.Main - Файл создан: statistics_20241215_013131.txt
+[2024-12-15 01:31:31] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 01:31:31] [main] INFO  org.example.Main - Начало обработки автора с ID: 1086593
+[2024-12-15 01:31:31] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:31:35] [main] ERROR org.example.Main - Ошибка при обработке автора с ID: 1086593
+java.io.IOException: Имя автора не найдено для ID: 1086593
+	at org.example.AuthorStatisticsFetcher.fetchAuthorStatistics(AuthorStatisticsFetcher.java:79) ~[main/:?]
+	at org.example.Main.main(Main.java:47) [main/:?]
+[2024-12-15 01:31:35] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078979
+[2024-12-15 01:31:35] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078979&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:31:38] [main] ERROR org.example.Main - Ошибка при обработке автора с ID: 1078979
+java.io.IOException: Имя автора не найдено для ID: 1078979
+	at org.example.AuthorStatisticsFetcher.fetchAuthorStatistics(AuthorStatisticsFetcher.java:79) ~[main/:?]
+	at org.example.Main.main(Main.java:47) [main/:?]
+[2024-12-15 01:31:38] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics_20241215_013131.txt
+[2024-12-15 01:31:38] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics_20241215_013131.txt
+[2024-12-15 01:31:38] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics_20241215_013131.txt
+[2024-12-15 01:33:57] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 01:34:06] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734215641.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734215642700307275, SCookieGUID=1F06205C%2D8F6B%2D42C1%2DBFAE%2D1F3DF55290A2, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734215641, _ym_d=1734215642, __utmc=216042306, SUserID=593429483, __utma=216042306.2047399934.1734215641.1734215641.1734215641.1}
+[2024-12-15 01:34:06] [main] INFO  org.example.Main - Файл создан: statistics_20241215_013406.txt
+[2024-12-15 01:34:06] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 01:34:06] [main] INFO  org.example.Main - Начало обработки автора с ID: 1086593
+[2024-12-15 01:34:06] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:34:10] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 01:34:13] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=3
+[2024-12-15 01:34:15] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=4
+[2024-12-15 01:34:17] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=5
+[2024-12-15 01:34:20] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=6
+[2024-12-15 01:34:22] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1086593
+[2024-12-15 01:34:22] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078979
+[2024-12-15 01:34:22] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078979&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:34:24] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078979
+[2024-12-15 01:34:24] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics_20241215_013406.txt
+[2024-12-15 01:34:24] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics_20241215_013406.txt
+[2024-12-15 01:34:24] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics_20241215_013406.txt
+[2024-12-15 01:35:57] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 01:36:07] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734215762.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734215762104281604, SCookieGUID=EBE875B6%2DC57F%2D4278%2D9418%2D15ACC07C893A, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734215762, _ym_d=1734215762, __utmc=216042306, SUserID=593429554, __utma=216042306.417098429.1734215762.1734215762.1734215762.1}
+[2024-12-15 01:36:07] [main] INFO  org.example.Main - Файл создан: statistics.txt
+[2024-12-15 01:36:07] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 01:36:07] [main] INFO  org.example.Main - Начало обработки автора с ID: 1086593
+[2024-12-15 01:36:07] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:36:10] [main] ERROR org.example.Main - Ошибка при обработке автора с ID: 1086593
+java.io.IOException: Имя автора не найдено для ID: 1086593
+	at org.example.AuthorStatisticsFetcher.fetchAuthorStatistics(AuthorStatisticsFetcher.java:79) ~[main/:?]
+	at org.example.Main.main(Main.java:44) [main/:?]
+[2024-12-15 01:36:10] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078979
+[2024-12-15 01:36:10] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078979&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 01:36:12] [main] ERROR org.example.Main - Ошибка при обработке автора с ID: 1078979
+java.io.IOException: Имя автора не найдено для ID: 1078979
+	at org.example.AuthorStatisticsFetcher.fetchAuthorStatistics(AuthorStatisticsFetcher.java:79) ~[main/:?]
+	at org.example.Main.main(Main.java:44) [main/:?]
+[2024-12-15 01:36:12] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 01:36:12] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 01:36:12] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 19:26:08] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 19:26:20] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734279975.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734279975392409640, SCookieGUID=9973F714%2DA3B6%2D4D4E%2DB017%2D5C4175679799, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734279975, _ym_d=1734279975, __utmc=216042306, SUserID=593507746, __utma=216042306.424933639.1734279975.1734279975.1734279975.1}
+[2024-12-15 19:26:20] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 19:26:20] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 19:26:20] [main] FATAL org.example.Main - Критическая ошибка при выполнении программы
+java.io.FileNotFoundException: author.txt (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.AuthorIdReader.readAuthorIds(AuthorIdReader.java:11) ~[main/:?]
+	at org.example.Main.main(Main.java:35) [main/:?]
+[2024-12-15 19:27:06] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 19:27:15] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734280031.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734280031653251424, SCookieGUID=373F9A0D%2D4766%2D4F63%2DA8F5%2DA128919F20D5, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734280031, _ym_d=1734280031, __utmc=216042306, SUserID=593507850, __utma=216042306.650685212.1734280031.1734280031.1734280031.1}
+[2024-12-15 19:27:16] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 19:27:16] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 19:27:16] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039635
+[2024-12-15 19:27:16] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039635&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:27:17] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039635
+[2024-12-15 19:27:17] [main] INFO  org.example.Main - Начало обработки автора с ID: 1097364
+[2024-12-15 19:27:17] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1097364&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:27:18] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1097364
+[2024-12-15 19:27:18] [main] INFO  org.example.Main - Начало обработки автора с ID: 3647583
+[2024-12-15 19:27:18] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=3647583&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:27:18] [main] ERROR org.example.AuthorStatisticsFetcher - Ошибка получения данных для автора 3647583, статус код: 500
+[2024-12-15 19:27:18] [main] ERROR org.example.Main - Ошибка при обработке автора с ID: 3647583
+java.io.IOException: Ошибка HTTP: 500
+	at org.example.AuthorStatisticsFetcher.fetchAuthorStatistics(AuthorStatisticsFetcher.java:68) ~[main/:?]
+	at org.example.Main.main(Main.java:43) [main/:?]
+[2024-12-15 19:27:18] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:27:18] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:27:18] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 19:28:51] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 19:28:59] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734280135.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734280135783393859, SCookieGUID=53012AD1%2DD66E%2D453A%2D9EC6%2D7E584183F5CA, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734280135, _ym_d=1734280135, __utmc=216042306, SUserID=593508021, __utma=216042306.2098378717.1734280135.1734280135.1734280135.1}
+[2024-12-15 19:29:00] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 19:29:00] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 19:29:00] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039635
+[2024-12-15 19:29:00] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039635&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:29:02] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039635
+[2024-12-15 19:29:02] [main] INFO  org.example.Main - Начало обработки автора с ID: 1097364
+[2024-12-15 19:29:02] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1097364&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:29:02] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1097364
+[2024-12-15 19:29:02] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:29:02] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:29:02] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 19:39:14] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 19:39:25] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734280760.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734280760527379982, SCookieGUID=739B79FC%2D3324%2D4208%2D9C36%2D9A91A14BC48A, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734280760, _ym_d=1734280760, __utmc=216042306, SUserID=593509155, __utma=216042306.486496641.1734280760.1734280760.1734280760.1}
+[2024-12-15 19:39:25] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 19:39:25] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 19:39:25] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039635
+[2024-12-15 19:39:25] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039635&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:39:27] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039635
+[2024-12-15 19:39:27] [main] INFO  org.example.Main - Начало обработки автора с ID: 1097364
+[2024-12-15 19:39:27] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1097364&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 19:39:27] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1097364
+[2024-12-15 19:39:27] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:39:27] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 19:39:27] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:03:31] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734282206.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734282206573144320, SCookieGUID=E52021B5%2D93EF%2D45CE%2D94C8%2D541A3D168D20, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734282206, _ym_d=1734282206, __utmc=216042306, SUserID=593511778, __utma=216042306.633081204.1734282206.1734282206.1734282206.1}
+[2024-12-15 20:03:31] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=invalid&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:03:39] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734282214.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734282214287018890, SCookieGUID=464E05D7%2D2FE5%2D43F5%2DB9AE%2DDE7A7D970046, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734282214, _ym_d=1734282214, __utmc=216042306, SUserID=593511800, __utma=216042306.1929132806.1734282214.1734282214.1734282214.1}
+[2024-12-15 20:03:39] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:03:47] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734282222.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734282222108137105, SCookieGUID=E5F81E3D%2DF108%2D4D88%2D8500%2D50300624FF84, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734282222, _ym_d=1734282222, __utmc=216042306, SUserID=593511814, __utma=216042306.2037085053.1734282222.1734282222.1734282222.1}
+[2024-12-15 20:03:47] [Test worker] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: test_output.txt
+[2024-12-15 20:04:42] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:04:50] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734282286.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734282286655122774, SCookieGUID=40B60FAE%2D27DF%2D4487%2D99EC%2DA47D7DE139E1, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734282286, _ym_d=1734282286, __utmc=216042306, SUserID=593511946, __utma=216042306.1569834621.1734282286.1734282286.1734282286.1}
+[2024-12-15 20:04:51] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:04:51] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:04:51] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039635
+[2024-12-15 20:04:51] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039635&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:04:53] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039635
+[2024-12-15 20:04:53] [main] INFO  org.example.Main - Начало обработки автора с ID: 1097364
+[2024-12-15 20:04:53] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1097364&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:04:53] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1097364
+[2024-12-15 20:04:53] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:04:53] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:04:53] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:22:01] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:22:09] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734283324.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734283324435226229, SCookieGUID=36FE188B%2DEFF6%2D4B0B%2D955F%2DCD4ED80F6CD7, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734283324, _ym_d=1734283324, __utmc=216042306, SUserID=593513698, __utma=216042306.330537020.1734283324.1734283324.1734283324.1}
+[2024-12-15 20:22:09] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:22:09] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:22:09] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:22:09] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:22:11] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:22:11] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:22:11] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:22:12] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:22:12] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:22:12] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:22:12] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:22:13] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:22:13] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:22:13] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:22:13] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:22:13] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:27:20] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:27:29] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734283644.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734283644935134343, SCookieGUID=DCAF1DA6%2D5667%2D45D2%2D896C%2D1578750B1B04, _ym_isad=2, __utmt=1, __utmb=216042306.2.9.1734283644, _ym_d=1734283644, __utmc=216042306, SUserID=593514214, __utma=216042306.163290600.1734283644.1734283644.1734283644.1}
+[2024-12-15 20:27:29] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:27:29] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:27:29] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:27:29] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:27:31] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:27:31] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:27:31] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:27:32] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:27:34] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:27:34] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:27:34] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:27:37] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:27:37] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:27:37] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:27:37] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:27:37] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:29:54] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:30:04] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734283798.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734283798244355458, SCookieGUID=398F1BA9%2DF675%2D49F0%2D9C9D%2D0BB1860983CB, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734283798, _ym_d=1734283798, __utmc=216042306, SUserID=593514486, __utma=216042306.615248646.1734283798.1734283798.1734283798.1}
+[2024-12-15 20:30:04] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:30:04] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:30:04] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:30:04] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:30:05] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:30:05] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:30:05] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:30:06] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:30:07] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:30:07] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:30:07] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:30:08] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:30:08] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:30:08] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:30:08] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:30:08] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:33:11] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:33:19] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734283994.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734283994768592802, SCookieGUID=8F13EBF9%2DA034%2D46A8%2DAB0F%2DBDF35C76B7EB, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734283994, _ym_d=1734283994, __utmc=216042306, SUserID=593514810, __utma=216042306.997075993.1734283994.1734283994.1734283994.1}
+[2024-12-15 20:33:19] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:33:19] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:33:19] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:33:19] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:21] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:33:21] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:33:21] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:22] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:33:23] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:33:23] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:33:23] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:24] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:33:25] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:33:25] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:33:25] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:33:25] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:33:41] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:33:50] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284024.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284024830670837, SCookieGUID=9BD6A584%2D5D2B%2D475E%2DB1AC%2D84DF7A31C336, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284024, _ym_d=1734284024, __utmc=216042306, SUserID=593514859, __utma=216042306.1166393243.1734284024.1734284024.1734284024.1}
+[2024-12-15 20:33:50] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:33:50] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:33:50] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:33:50] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:51] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:33:51] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:33:51] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:52] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:33:53] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:33:53] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:33:53] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:33:54] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:33:55] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:33:55] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:33:55] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:33:55] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:38:34] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:38:43] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284318.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284318901697748, SCookieGUID=8C00352E%2D8F1F%2D4C90%2D9BB0%2DC1C8FC2F860C, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284318, _ym_d=1734284318, __utmc=216042306, SUserID=593515354, __utma=216042306.1534889499.1734284318.1734284318.1734284318.1}
+[2024-12-15 20:38:43] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:38:43] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:38:43] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:38:43] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:38:45] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:38:45] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:38:45] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:38:46] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:38:47] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:38:47] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:38:47] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:38:48] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:38:49] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:38:49] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:38:49] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:38:49] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:42:36] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:42:44] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284559.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284559745657982, SCookieGUID=B8E5BD40%2DCEA0%2D465A%2D9F4D%2D5A0F2DE52713, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284559, _ym_d=1734284559, __utmc=216042306, SUserID=593515774, __utma=216042306.1404738807.1734284559.1734284559.1734284559.1}
+[2024-12-15 20:42:44] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:42:44] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:42:44] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:42:44] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:42:46] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:42:46] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:42:46] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:42:46] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:42:47] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:42:47] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:42:47] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:42:48] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:42:49] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:42:49] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:42:49] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:42:49] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:43:25] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:43:33] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284609.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284609954330511, SCookieGUID=2F46A9C3%2D5E05%2D4C0C%2D8FC2%2DF62BBC68EEA8, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284609, _ym_d=1734284609, __utmc=216042306, SUserID=593515878, __utma=216042306.788791262.1734284609.1734284609.1734284609.1}
+[2024-12-15 20:43:34] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:43:34] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:43:34] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:43:34] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:43:36] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:43:36] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:43:36] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:43:37] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:43:38] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:43:38] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:43:38] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:43:39] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:43:40] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:43:40] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:43:40] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:43:40] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:47:36] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284852.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284852588574628, SCookieGUID=EE0B928D%2D81F4%2D497A%2D98B2%2DA736DEE5F9BC, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284852, _ym_d=1734284852, __utmc=216042306, SUserID=593516315, __utma=216042306.203842971.1734284852.1734284852.1734284852.1}
+[2024-12-15 20:47:37] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=invalid&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:47:45] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284860.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284860205728800, SCookieGUID=1F79B288%2D0B81%2D4A63%2D91DA%2D8EA6B37C1AE4, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284860, _ym_d=1734284860, __utmc=216042306, SUserID=593516339, __utma=216042306.2047158769.1734284860.1734284860.1734284860.1}
+[2024-12-15 20:47:45] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1086593&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:47:54] [Test worker] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734284869.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734284869660227814, SCookieGUID=839C861C%2D8C66%2D48E3%2D9199%2D6E931DAF3F01, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734284869, _ym_d=1734284869, __utmc=216042306, SUserID=593516355, __utma=216042306.1296034513.1734284869.1734284869.1734284869.1}
+[2024-12-15 20:47:54] [Test worker] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: test_output.txt
+[2024-12-15 20:49:57] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:50:05] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734285000.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734285000277246746, SCookieGUID=531B9A07%2D2B95%2D4B48%2DBB9D%2D10E33F1325DE, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734285000, _ym_d=1734285000, __utmc=216042306, SUserID=593516562, __utma=216042306.1442326276.1734285000.1734285000.1734285000.1}
+[2024-12-15 20:50:05] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:50:05] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:50:05] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:50:05] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:07] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:50:07] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:50:07] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:08] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:50:09] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:50:09] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:50:09] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:10] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:50:11] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:50:11] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:50:11] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:50:11] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
+[2024-12-15 20:50:33] [main] INFO  org.example.Main - Инициализация получения Cookies
+[2024-12-15 20:50:42] [main] INFO  org.example.AuthorStatisticsFetcher - Полученные куки: {__utmz=216042306.1734285036.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none), _ym_uid=1734285037725542082, SCookieGUID=5ACB7B7E%2D1577%2D4C61%2DB349%2D219EE799B89B, _ym_isad=2, __utmt=1, __utmb=216042306.1.10.1734285036, _ym_d=1734285037, __utmc=216042306, SUserID=593516626, __utma=216042306.626434719.1734285036.1734285036.1734285036.1}
+[2024-12-15 20:50:42] [main] WARN  org.example.Main - Файл уже существует: statistics.txt
+[2024-12-15 20:50:42] [main] INFO  org.example.Main - Чтение списка авторов из файла: author.txt
+[2024-12-15 20:50:42] [main] INFO  org.example.Main - Начало обработки автора с ID: 1039456
+[2024-12-15 20:50:42] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1039456&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:44] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1039456
+[2024-12-15 20:50:44] [main] INFO  org.example.Main - Начало обработки автора с ID: 1040367
+[2024-12-15 20:50:44] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:44] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1040367&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:50:45] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1040367
+[2024-12-15 20:50:45] [main] INFO  org.example.Main - Начало обработки автора с ID: 1078563
+[2024-12-15 20:50:45] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=1
+[2024-12-15 20:50:46] [main] INFO  org.example.AuthorStatisticsFetcher - Выполняется запрос к URL: https://elibrary.ru/author_items.asp?authorid=1078563&pubrole=100&show_refs=1&show_option=0&pagenum=2
+[2024-12-15 20:50:46] [main] INFO  org.example.Main - Успешно обработан автор с ID: 1078563
+[2024-12-15 20:50:46] [main] INFO  org.example.Main - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:50:46] [main] INFO  org.example.StatisticsSaver - Сохранение статистики в файл: statistics.txt
+[2024-12-15 20:50:46] [main] INFO  org.example.Main - Статистика успешно сохранена в statistics.txt
